@@ -1,14 +1,14 @@
-# 🚀 Spring Boot Utilities
+# Spring Boot Utilities
 
 ![Java Version](https://img.shields.io/badge/Java-8-brightgreen)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.5-green)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-latest-blue)
 
-> **This is my personal project for building reusable utilities service. It was to help my development process as a Backend Developer when needing to develop feature related to common enterprise needs.**
+> **This is my personal project for building utilities service to help my development process as a Backend Developer when needing to develop feature related to common enterprise needs.**
 
-These utility services can be integrated into another Spring Boot application.
+These utilities service can be be used by another API server.
 
-### 1️⃣ Email Service
+### 1️⃣ Send Email
 A email management system with time delay feature:
 - Template-based HTML emails with dynamic variables
 - Multiple file attachments support
@@ -22,7 +22,7 @@ Dynamic configuration management:
 - Live refresh via Spring Actuator (`/actuator/refresh`)
 - Easy configuration updates through database
 
-### 3️⃣ PDF Generator Service
+### 3️⃣ PDF Generator
 - A lightweight PDF generation that accepts an inline Thymeleaf HTML template and JSON data
 - Renders HTML, converts it to PDF (via Flying Saucer / iText)
 - Returns PDF bytes as base64.
@@ -83,7 +83,7 @@ Utilities will start on **http://localhost:8080**
 
 ## Usage Examples
 
-### 1️⃣ Email Service
+### 1️⃣ Send Email
 
 #### Basic Email
 
@@ -282,6 +282,6 @@ curl -X POST http://localhost:8080/api/utilities/pdf-generator/generate \
 
 ## 📚 API Documentation
 Complete API documentation is available in OpenAPI 3.0.3 format:
-- **Email Service OpenAPI JSON**: [`docs/api.json`](./docs/api.json)
-- **PDF Generator Service OpenAPI JSON**: [`docs/api.json`](./docs/api.json)
+- **Send Email OpenAPI JSON**: [`docs/api.json`](./docs/api.json)
+- **PDF Generator OpenAPI JSON**: [`docs/api.json`](./docs/api.json)
 - **SwaggerHub**: [API Documentation](https://app.swaggerhub.com/apis/freelance-a1b/spring-boot-utilities/1.0.0) 🌐
