@@ -4,9 +4,9 @@
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.5-green)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-latest-blue)
 
-> **This is my personal project for building utilities service to help my development process as a Backend Developer when needing to develop feature related to common enterprise needs.**
+> **This is my personal project for a service that is consisted of useful utility tool to help my development process as a Backend Developer. It is useful when needing to develop features related to common enterprise needs.**
 
-These utilities service can be be used by another API server.
+This service can be used to be develop into another service client.
 
 ### 1️⃣ Send Email
 A email management system with time delay feature:
