@@ -1,4 +1,4 @@
-# Spring Boot Utilities
+# Utilities Service - Spring Boot
 
 ![Java Version](https://img.shields.io/badge/Java-8-brightgreen)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.5-green)
